@@ -162,6 +162,10 @@ body {
   text-transform: uppercase;
 }
 
+.container section:not(.active) .content h3 {
+  color: var(--c-black);
+}
+
 .container section .content ul {
   margin-block: 1.7rem;
 }
